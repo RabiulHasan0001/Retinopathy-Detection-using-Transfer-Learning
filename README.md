@@ -13,7 +13,16 @@ The repository is organized into folders corresponding to different tasks:
 - `TASK-E`: Provides tools for creating visualizations and implementing Explainable AI techniques such as GradCAM.
 
 ## Task-Specific Instructions
+### TASK-A: Fine-tuning pre-trained models using the DeepDRiD dataset
 
+1. Navigate to the `TASK-A` folder.
+2. Open the provided notebook.
+3. To get the required output:
+   - Set the dataset directory properly based on your dataset location
+   - Use the DeepDRiD dataset for model fine-tuning
+4. Execute the notebook to train the model with your selected configurations.(preferred Kaggle GPU 100)
+5. Evaluate the results by comparing metrics like Cohen's Kappa scores.
+6. Grad-CAM visualization has also been added to the notebook.
 ### TASK-B: Two-Stage Training with Additional Datasets
 
 1. Navigate to the `TASK-B` folder.
@@ -24,6 +33,16 @@ The repository is organized into folders corresponding to different tasks:
    - Use the provided datasets (e.g., Kaggle DR Resized or APTOS 2019 Blindness Detection).
 4. Run the notebook to train the model using your chosen configurations.
 
+### TASK-C: Attention Mechanisms in the VGG16, ResNet38, DenseNet201 and Efficientnet Models
+
+1. Navigate to the `TASK-A` folder.
+2. Open the provided notebook. This notebook contains both task A and task c combinely.
+3. To get the required output:
+   - Set the dataset directory properly based on your dataset location
+   - Use the DeepDRiD dataset for model fine-tuning
+4. Execute the notebook to train the model with your selected configurations. (preferred Kaggle GPU 100)
+5. Evaluate the results by comparing metrics like Cohen's Kappa scores. 
+   
 ### TASK-D: Ensemble Learning and Image Preprocessing
 
 1. Navigate to the `TASK-D` folder.
